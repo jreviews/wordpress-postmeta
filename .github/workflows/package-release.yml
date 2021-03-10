@@ -1,0 +1,22 @@
+name: Package release
+on:
+  push:
+    branches:    
+      - main
+    tags:
+      - 'v*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Zip Release
+      uses: thedoctor0/zip-release@0.4.1
+      with:
+        filename: 'jreviews_postmeta.zip'
+        exclusions: '*.git* .* /*node_modules/* .editorconfig composer.json'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "jreviews_postmeta.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}

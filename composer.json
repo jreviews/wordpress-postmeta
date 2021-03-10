@@ -1,0 +1,13 @@
+{
+    "name": "jreviews/wordpress-postmeta",
+    "description": "Allows retrieving JReviews field data via get_post_metadata",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clickfwd",
+            "email": "info@jreviews.com"
+        }
+    ],
+    "require": {}
+}
