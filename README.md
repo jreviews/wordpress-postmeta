@@ -4,7 +4,7 @@ This package can be installed in WordPress site using JReviews to easily allow a
 
 ## Installation
 
-Download the latest version of the plugin from the [releases page](https://github.com/jreviews/wordpress-postmeta/releases) and install using the WordPress plugins manager on your site.
+[Download the jreviews_postmeta.zip plugin package](https://github.com/jreviews/wordpress-postmeta/releases/latest) and install using the WordPress plugins manager on your site.
 
 ## Usage
 
