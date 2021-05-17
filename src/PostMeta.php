@@ -66,6 +66,8 @@ class PostMeta
             case 'decimal':
             case 'integer':
             case 'date':
+            case 'website':
+            case 'email':
                 $data = $value;
 
                 break;
