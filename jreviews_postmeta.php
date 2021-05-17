@@ -4,7 +4,7 @@
  * Plugin Name: JReviews Post Meta
  * Plugin URI: https://github.com/jreviews/wordpress-postmeta
  * Description: Allows retrieving JReviews field data via get_post_metadata
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: ClickFWD LLC
  * Author URI: https://www.jreviews.com
  * License: MIT
