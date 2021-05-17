@@ -36,6 +36,8 @@ $rating = $post->{'jreviews:rating'};
     - integer
     - date
     - relatedlisting
+    - website
+    - email
 
 ## License
 
